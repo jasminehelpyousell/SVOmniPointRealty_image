@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SV OmniPoint Realty and Lending - Unified dual-engine residential real estate and mortgage brokerage platform serving Silicon Valley.">
+  <title>SV OmniPoint Realty &amp; Lending | Unified Real Estate &amp; Mortgage Advisory</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="site-header">
+    <div class="container navbar">
+      <!-- ===== BEGIN EDIT: logo added ===== -->
+      <!-- STEP 1: Logo image added inside the brand link, before the company name.
+           alt text describes the image for screen readers / if the file fails to load. -->
+      <a href="#" class="brand-logo">
+        <img src="Image3-CompanyLogo.jpg" alt="SV OmniPoint Realty &amp; Lending logo" class="company-logo">
+        SV OmniPoint <span>Realty &amp; Lending</span>
+      </a>
+      <!-- ===== END EDIT: logo added ===== -->
+      
+      <!-- Controls container for Theme & Mobile Toggle -->
+      <div style="display: flex; align-items: center; gap: 0.75rem;">
+        <button id="themeToggleBtn" class="theme-toggle-btn" aria-label="Toggle theme">
+          <span id="themeIcon">Dark</span>
+        </button>
+        <button id="mobileMenuToggle" class="mobile-toggle-btn" aria-expanded="false" aria-label="Toggle navigation menu">
+          Menu
+        </button>
+      </div>
+
+      <nav id="primaryNav" aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="#services">Offerings</a></li>
+          <li><a href="#advantages">The Dual Edge</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#markets">Markets</a></li>
+          <li><button type="button" class="nav-btn" data-open-modal="bookingModal">Schedule Advisory</button></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="container">
+      <span class="hero-badge">Dual-Engine Real Estate &amp; Mortgage Advisory</span>
+
+      <!-- Choice Images (Repeat as needed for your 3 choice photos) -->
+      <div class="image-container">
+        <img src="Image1-CompanyService.jpg" alt="One Stop Shop for mortgage and real estate" class="company-image">
+      </div>
+
+      <h1>Unified Residential Brokerage &amp; In-House Mortgage Origination</h1>
+      <p>
+        SV OmniPoint Realty and Lending delivers a unified platform combining full-service real estate representation with in-house residential financing across Silicon Valley and the Peninsula. We remove communication friction, protect contract deposits, and accelerate escrow closings.
+      </p>
+      <button type="button" class="cta-btn" data-open-modal="bookingModal">Book Confidential Advisory</button>
+    </div>
+  </header>
+
+  <!-- Value Proposition Section -->
+  <section id="advantages" class="edge">
+    <div class="container">
+      <div class="section-header">
+        <h2>The Dual-Licensing Edge</h2>
+        <p>In standard transactions, the real estate brokerage and mortgage lender operate in isolated silos, causing communication gaps, missed contingency deadlines, and dropped escrows. SV OmniPoint eliminates this divide.</p>
+      </div>
+      <div class="edge-grid">
+        <article class="edge-card">
+          <h3>Eliminate Communication Friction</h3>
+          <p>Unifying real estate transaction management with direct loan origination removes silo walls between agents and external loan officers, preventing costly delays.</p>
+        </article>
+        <article class="edge-card">
+          <h3>Protect Contract Deposits</h3>
+          <p>Silicon Valley purchase earnest money deposits typically reach 3% ($50,000 to $100,000+). Dual-credentialed oversight ensures strict adherence to financing contingency timelines.</p>
+        </article>
+        <article class="edge-card">
+          <h3>Accelerated Closing Velocity</h3>
+          <p>Designed for fast-moving Bay Area competitive bidding, enabling aggressive 14-to-21-day escrow closings and solid non-contingent offer structuring.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features & Services Grid -->
+  <section id="services">
+    <div class="container">
+      <div class="section-header">
+        <div class="image-container">
+          <h2>Our Service Offerings</h2>
+            <img src="image4-Mortgage.jpg" alt="A professional photo of our core service" class="company-image">
+            <p>Tailored real estate representation and flexible residential lending solutions engineered for Silicon Valley tech professionals, move-up sellers, and real estate investors.</p>
+        </div>
+      </div>
+      <div class="services-grid">
+        
+        <!-- Residential Real Estate -->
+        <article class="service-card">
+          <h3>Residential Real Estate</h3>
+          <ul class="service-list">
+            <li>
+              <strong>Seller Representation</strong>
+              <p>Comprehensive property valuation, turnkey vendor coordination (painting, staging, repairs), digital media production (Matterport 3D, 4K video tours, floor plans), MLS syndication, open houses, and offer evaluation matrices.</p>
+            </li>
+            <li>
+              <strong>Buyer Representation</strong>
+              <p>Needs analysis, targeted on-market and off-market tours, school/zoning analysis, contract negotiation with protective clauses, and complete inspection package audits.</p>
+            </li>
+            <li>
+              <strong>Investor &amp; 1031 Exchange Services</strong>
+              <p>Capital gains deferral advisory, statutory 45-day replacement property identification, and completion within the 180-day mandate.</p>
+            </li>
+          </ul>
+        </article>
+
+        <!-- Mortgage & Lending Services -->
+        <article class="service-card">
+          <h3>Mortgage &amp; Financing</h3>
+          <ul class="service-list">
+            <li>
+              <strong>Purchase Financing</strong>
+              <p>Conventional conforming, high-balance conforming, and Jumbo loans up to $3.5M+ with flexible asset depletion and tech RSU income qualification guidelines.</p>
+            </li>
+            <li>
+              <strong>Refinance Solutions</strong>
+              <p>Rate-and-term refinances, cash-out debt consolidation, home equity loans, and bridge financing to facilitate contingent home purchases.</p>
+            </li>
+            <li>
+              <strong>Wholesale Broker Placements</strong>
+              <p>Direct correspondent access to premier wholesale lending channels (including United Wholesale Mortgage, Rocket Mortgage, and jumbo portfolio conduits) for optimal rates.</p>
+            </li>
+          </ul>
+        </article>
+
+        <!-- PropTech & Advisory -->
+        <article class="service-card">
+          <h3>Advisory &amp; PropTech</h3>
+          <ul class="service-list">
+            <li>
+              <strong>AI Disclosure Summaries</strong>
+              <p>PropTech tools parsing 300+ page California disclosure packets to highlight material risks, HOA assessments, and structural/settling items in minutes.</p>
+            </li>
+            <li>
+              <strong>Automated Rate Monitoring</strong>
+              <p>Borrower rate-watch workflows that track secondary market bond yields and notify clients when refinancing targets hit breakeven thresholds.</p>
+            </li>
+            <li>
+              <strong>ADU &amp; Expansion Feasibility</strong>
+              <p>Lot coverage, setback, and zoning assessments across Cupertino, Sunnyvale, and San Jose to evaluate property expansion potential.</p>
+            </li>
+          </ul>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive FAQ Section -->
+  <section id="faq" style="background-color: var(--bg-surface); border-top: 1px solid var(--border-light);">
+    <div class="container">
+      <div class="section-header">
+        <h2>Frequently Asked Questions</h2>
+        <p>Direct insights into our dual-licensing model, lending qualification, and Silicon Valley transaction execution.</p>
+      </div>
+      <div class="faq-container" style="max-width: 800px; margin: 0 auto; display: flex; flex-direction: column; gap: 1rem;">
+        
+        <div class="faq-item" style="border: 1px solid var(--border-light); border-radius: 8px; overflow: hidden; background: var(--bg-main);">
+          <button class="faq-question" aria-expanded="false" style="width: 100%; text-align: left; padding: 1.25rem 1.5rem; background: none; border: none; font-size: 1.05rem; font-weight: 700; color: var(--primary-navy); cursor: pointer; display: flex; justify-content: space-between; align-items: center;">
+            <span>How does the dual-licensing model protect my earnest money deposit?</span>
+            <span class="faq-arrow">&plus;</span>
+          </button>
+          <div class="faq-answer" style="max-height: 0; overflow: hidden; transition: max-height 0.3s ease; padding: 0 1.5rem;">
+            <p style="padding-bottom: 1.25rem; color: var(--text-secondary); font-size: 0.95rem;">
+              In Silicon Valley, standard 3% purchase deposits range from $50,000 to $100,000+. When real estate agents and lenders operate in disconnected silos, missed contingency dates and miscalculated RSU terms are the leading cause of contract fallout. SV OmniPoint agents hold dual DRE and NMLS credentials, directly aligning underwriting timelines with purchase contract milestones.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item" style="border: 1px solid var(--border-light); border-radius: 8px; overflow: hidden; background: var(--bg-main);">
+          <button class="faq-question" aria-expanded="false" style="width: 100%; text-align: left; padding: 1.25rem 1.5rem; background: none; border: none; font-size: 1.05rem; font-weight: 700; color: var(--primary-navy); cursor: pointer; display: flex; justify-content: space-between; align-items: center;">
+            <span>Can you structure Jumbo loans using RSU vesting schedules and bonus compensation?</span>
+            <span class="faq-arrow">&plus;</span>
+          </button>
+          <div class="faq-answer" style="max-height: 0; overflow: hidden; transition: max-height 0.3s ease; padding: 0 1.5rem;">
+            <p style="padding-bottom: 1.25rem; color: var(--text-secondary); font-size: 0.95rem;">
+              Yes. We specialize in underwriting tech compensation packages (Apple, Nvidia, Google, Meta, Tesla, etc.). We offer conforming, high-balance, and jumbo loans up to $3.5M+ utilizing flexible asset depletion and compliant RSU historical averaging to execute fast 14-to-21-day escrow closings.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item" style="border: 1px solid var(--border-light); border-radius: 8px; overflow: hidden; background: var(--bg-main);">
+          <button class="faq-question" aria-expanded="false" style="width: 100%; text-align: left; padding: 1.25rem 1.5rem; background: none; border: none; font-size: 1.05rem; font-weight: 700; color: var(--primary-navy); cursor: pointer; display: flex; justify-content: space-between; align-items: center;">
+            <span>What are your listing and advisory representation fees?</span>
+            <span class="faq-arrow">&plus;</span>
+          </button>
+          <div class="faq-answer" style="max-height: 0; overflow: hidden; transition: max-height 0.3s ease; padding: 0 1.5rem;">
+            <p style="padding-bottom: 1.25rem; color: var(--text-secondary); font-size: 0.95rem;">
+              Real estate representation fees are fully negotiable and strategically tailored within a 1.5% to 3.0% range based on the scope of pre-market preparation (turnkey staging, 3D media, structural inspections) and micro-market inventory conditions.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="about-content">
+        <div class="about-text">
+          <h3>Our Mission &amp; Core Values</h3>
+          <p>
+            SV OmniPoint Realty and Lending provides an integrated real estate and financing advisory experience grounded in fiduciary rigor, data precision, and hyper-local market intelligence. The firm simplifies the complexities of property acquisition, capitalization, and divestment across Silicon Valley, maximizing client wealth with zero transaction friction.
+          </p>
+          <ul class="core-values">
+            <li>
+              <strong>Precision &amp; Transparency</strong>
+              Data-backed property valuations, clear seller net sheets, and upfront lending disclosures with no hidden fees.
+            </li>
+            <li>
+              <strong>Integrated Execution</strong>
+              Coordinated real estate representation and mortgage origination that protects contract deposits and speeds up closing timelines.
+            </li>
+            <li>
+              <strong>Fiduciary Integrity</strong>
+              Strict adherence to consumer protection, fair housing, and statutory lending standards.
+            </li>
+          </ul>
+        </div>
+
+        <aside class="leadership-card">
+
+        <!-- Choice Images (Repeat as needed for your 3 choice photos) -->
+        <div class="image-container">
+          <img src="image2-EmployeeGroupPhoto.jpg" alt="My Teams" class="company-image">
+        </div>
+          
+          <h4>Executive Leadership</h4>
+          <span class="role">Jasmine Lin &mdash; Founder, President &amp; Designated Broker of Record</span>
+          <p>
+            Dual-licensed professional directing overall corporate strategy, transaction execution, and regulatory compliance under both the California Department of Real Estate (DRE) and Nationwide Multistate Licensing System (NMLS).
+          </p>
+          <div class="tag-container">
+            <span class="tag">California Professional Corporation</span>
+            <span class="tag">DRE Corporate Broker License</span>
+            <span class="tag">NMLS Company Endorsement</span>
+            <span class="tag">DRE MLO Endorsement</span>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- Geographic Scope -->
+  <section id="markets" style="background-color: var(--bg-main); border-top: 1px solid var(--border-light);">
+    <div class="container">
+      <div class="section-header">
+        <h2>Geographic Footprint</h2>
+
+        <!-- Choice Images (Repeat as needed for your 3 choice photos) -->
+        <div class="image-container">
+          <img src="image5-RE.jpg" alt="My Teams" class="company-image">
+        </div>
+
+        <p>Providing hyper-local advisory across the core Silicon Valley and Peninsula corridors.</p>
+      </div>
+      <div class="markets-container">
+        <span class="tag-market">Cupertino (95014)</span>
+        <span class="tag-market">Sunnyvale (94086, 94087)</span>
+        <span class="tag-market">Santa Clara (95051)</span>
+        <span class="tag-market">Saratoga (95070)</span>
+        <span class="tag-market">San Jose (West San Jose, Willow Glen, Cambrian, Almaden)</span>
+        <span class="tag-market">Mountain View</span>
+        <span class="tag-market">Los Altos &amp; Campbell</span>
+        <span class="tag-market">Peninsula (Redwood City, Menlo Park, Burlingame)</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact" class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h5>SV OmniPoint Realty &amp; Lending</h5>
+          <p>A California Professional Corporation providing unified residential real estate sales and mortgage origination services.</p>
+          <p>Domain: <a href="https://SVOmniPointRealty.com" style="color: var(--accent-gold);">SVOmniPointRealty.com</a></p>
+        </div>
+        <div class="footer-col">
+          <h5>Core Divisions</h5>
+          <ul class="footer-links">
+            <li><a href="#services">Residential Seller &amp; Buyer Agency</a></li>
+            <li><a href="#services">Conventional &amp; Jumbo Loan Financing</a></li>
+            <li><a href="#services">1031 Tax-Deferred Exchanges</a></li>
+            <li><a href="#services">Rate Monitoring &amp; Refinance Placements</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Compliance &amp; Licensing</h5>
+          <p>Designated Broker: Jasmine Lin</p>
+          <p>Regulated by California Department of Real Estate (DRE) and Nationwide Multistate Licensing System (NMLS).</p>
+          <p>Equal Housing Opportunity.</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 SV OmniPoint Realty and Lending. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Interactive Advisory Booking Modal -->
+  <div id="bookingModal" class="modal-overlay" aria-hidden="true">
+    <div class="modal-window">
+      <button type="button" id="closeModalBtn" class="modal-close" aria-label="Close Modal">&times;</button>
+      <div class="modal-header">
+        <h3>Schedule an Advisory Consultation</h3>
+        <p>Connect directly with Jasmine Lin for a confidential discussion on Silicon Valley acquisition, listing representation, or loan pre-approval.</p>
+      </div>
+      <form id="bookingForm" class="booking-form">
+        <div class="form-group">
+          <label for="fullName">Full Name</label>
+          <input type="text" id="fullName" name="fullName" required placeholder="e.g. Alex Chen">
+        </div>
+        <div class="form-group">
+          <label for="emailAddress">Email Address</label>
+          <input type="email" id="emailAddress" name="emailAddress" required placeholder="alex@example.com">
+        </div>
+        <div class="form-group">
+          <label for="serviceType">Advisory Area of Interest</label>
+          <select id="serviceType" name="serviceType">
+            <option value="purchase-mortgage">Dual Service: Home Purchase &amp; Jumbo/RSU Financing</option>
+            <option value="seller-rep">Turnkey Listing Representation &amp; Property Prep</option>
+            <option value="mortgage-refi">Mortgage Pre-Approval / Rate-and-Term Refinance</option>
+            <option value="1031-exchange">1031 Exchange / Real Estate Investment Advisory</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="notes">Transaction Timeline &amp; Location Details</label>
+          <textarea id="notes" name="notes" rows="3" placeholder="Target cities (e.g., Cupertino, Sunnyvale), timeline, or specific scenario..."></textarea>
+        </div>
+        <button type="submit" class="cta-btn" style="width: 100%; margin-top: 0.5rem;">Request Consultation</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- External Script Integration -->
+  <script src="script.js"></script>
+  <script type="text/javascript">
+  (function(d, t) {
+      var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+      v.onload = function() {
+        window.voiceflow.chat.load({
+          verify: { projectID: '6af0cb2fe9f5daa4e7d767ae' },
+          url: 'https://general-runtime.voiceflow.com',
+          voice: {
+            url: 'https://runtime-api.voiceflow.com'
+          }
+        });
+      }
+      v.src = 'https://cdn.voiceflow.com/widget-next/bundle.mjs'; v.type = 'text/javascript'; s.parentNode.insertBefore(v, s);
+  })(document, 'script');
+</script>
+</body>
+</html>
